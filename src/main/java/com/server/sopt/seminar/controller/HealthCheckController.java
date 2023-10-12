@@ -44,4 +44,5 @@ public class HealthCheckController {
         //return ResponseEntity.ok(new HealthCheckResponse("OK"));
         return ResponseEntity.ok((new HealthCheckResponse()));
     }
+
 }
